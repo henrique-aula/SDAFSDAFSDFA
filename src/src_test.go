@@ -16,7 +16,7 @@ func Test_Soma(t *testing.T) {
 		res := Soma(c.a, c.b)
 		expected := c.expected
 		if res != expected {
-			t.Errorf("Soma retornou %v, experado : %v\n", res, expected)
+			t.Errorf("Soma retornou %v, esperado : %v\n", res, expected)
 		}
 	}
 
